@@ -1,0 +1,74 @@
+body {font-family: Arial;}
+
+
+/* Style the tab */
+html{
+  background-image: linear-gradient(to right,#ba5370 , #f4e2d8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+
+}
+.tab {
+  border: none;
+  background-color: linear-gradient(to right,#ba5370 , #f4e2d8);
+  display:flex;
+  justify-content:space-evenly
+  
+}
+
+.tablinks{
+  color:whitesmoke;
+}
+/* Style the buttons inside the tab */
+#title{
+margin: 0px;
+  font-size:60px;
+  padding: 25px 52px;
+  text-align:center;
+    font-family: didot;
+  color:whitesmoke;
+    font-style: oblique;
+background-color:linear-gradient(to right,#ba5370 , #f4e2d8);
+    border: none;
+    
+  
+}
+.tab button {
+  background-color: inherit;
+    font-family: didot;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 70px;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f2c9d7;
+    border: 1px solid #ccc;
+    /*moz-box-shadow: inset -5px -5px 5px rgb(216, 173, 173);
+-webkit-box-shadow: inset -5px -5px 5px rgb(216, 173, 173);
+box-shadow: inset -5px -5px 5px rgb(216, 173, 173);*/
+  
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f2c9d7;
+    
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+    color:whitesmoke;
+  padding: 6px 12px;
+   font-family: didot;
+  border-top: none;
+    border: none;
+}
